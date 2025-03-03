@@ -1,15 +1,51 @@
-Tareas (descomentar la linea para probar la tarea).
+# Listado de Tareas 🚀  
 
-Tarea 1: Agregar un registro nuevo en la tabla.
-Funcion para probar la tarea: task1();
+Este repositorio contiene la solución a la prueba tecnica con una serie de tareas según los requerimientos establecidos.  
 
-Tarea 2: Registro erroneo.
-No hay una forma directa de relacionar o identificar si algun registro no pertenece a alguna catgoria. Sin embargo por razonamiento, se puede determinar que Flores no pertence a la categoria Perro, sino a la de plantas. Por lo tanto se debe cambiar el idPadre de Flores de 3 a 4.
-Funcion para probar la tarea: task2();
+## ⚙️ Requisitos
+Este proyecto se realizó con Node.js en su versión 22.
 
-Tarea 3: Mostrar la estructura jerárquica de la tabla
-Esta tarea es la funcion que muestra el ouput inicial con el arreglo de datos iniciales. Hay que tener en cuenta que en el arreglo de datos iniciales hay un registro erroneo.
-Funcion para probar la tarea: task3();
+## 📌 Instrucciones  
+Instalar todas las dependencias
+```bash
+npm install
+```
+Correr el proyecto utilizando el siguiente comando:
+```bash
+npm start
+```
+Para probar las tareas, es necesario descomentar la función correspondiente en el código, en el archivo **index.ts**  
 
-Tarea 4: Manera diferente de manejar estructura o lógica de la tabla
-Para manejar la estructura de la tabla de una manera diferente, se puede establecer un tipado detallado y asi validar cada una de las categorias y sus hijos. Siempre y cuando se tenga un conocimiento previo de la estructura de la tabla. Pero si se desea manejar una estructura mas dinamica, se puediera utilizar un servicio de IA para enviarle la data y que con razonamiento pueda determinar si algun registro no pertenece a la categoria correspondiente.
+## 📝 Tareas  
+
+### Tarea 1: Agregar un registro nuevo en la tabla  
+Esta tarea permite agregar un nuevo registro a la tabla.  
+
+**- Función para probar la tarea:**  
+```js
+task1();
+```
+### Tarea 2: Registro erróneo
+No existe una forma directa de identificar si un registro no pertenece a una categoría específica. Sin embargo, por razonamiento, se puede determinar que "Flores" no pertenece a la categoría "Perro", sino a "Plantas". Por lo tanto, se debe cambiar el **idPadre** de "Flores" de 3 a 4.
+
+**- Función para probar la tarea:**  
+```js
+task2();
+```
+
+### Tarea 3: Mostrar la estructura jerárquica de la tabla
+Esta tarea ejecuta la función que muestra el output inicial con el arreglo de datos originales.
+
+#### 📌 Nota: En el conjunto de datos iniciales, existe un registro erróneo.
+
+**- Función para probar la tarea:**
+```js
+task3();
+```
+### Tarea 4: Alternativa para manejar la estructura o lógica de la tabla
+Para gestionar la estructura de la tabla de manera diferente, se pueden emplear dos enfoques:
+
+**Tipado detallado:** Se valida cada categoría y sus hijos, siempre que se tenga conocimiento previo de la estructura de la tabla.
+
+**Enfoque dinámico con IA:** Se podría utilizar un servicio de inteligencia artificial que utilice razonamiento para analizar la data y determinar si algún registro no pertenece a la categoría correspondiente.
+
