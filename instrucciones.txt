@@ -1,0 +1,47 @@
+Durante el ejercicio puede asumir cualquier cosa que no esté explicita en las instrucciones, si lo hace,
+debe dejar constancia de ello en la respuesta o pregunta que lo requiera.
+A continuación, se presenta una tabla proveniente de una base de datos relacional. También una lista de
+cómo se espera visualizar.
+
+Id  Nombre    idPadre
+1   Mascotas  0
+2   Gato      1
+3   Perro     1
+4   Plantas   0
+5   Árbol     4
+6   Flores    3
+7   Micu      2
+8   Sasy      2
+9   Fido      3
+10  Bobby     3
+11  Roble     5
+
+Interpretación esperada:
+
+Mascotas
+    Gato
+        Micu
+        Sasy
+    Perro
+        Fido
+        Bobby
+
+Plantas
+    Árbol
+        Roble
+    Flores
+
+TAREAS
+1. Agregar un registro nuevo en la tabla.
+    a. Que pertenezca a la familia de Gato.
+    b. Que pertenezca a la familia de Fido.
+2. Existe un registro que no coincide con la interpretación esperada, indique cual y por qué.
+
+3. En pseudocódigo o en el lenguaje de su preferencia. Proponga una función, de preferencia recursiva,
+que permita entregar un listado en consola como se muestra en la Interpretación esperada.
+a. Tomar en cuenta que la tabla puede crecer en n cantidad de registros y n cantidad de
+niveles anidados.
+
+BONO
+4. Si tiene alguna idea en la que se puede trabajar de forma diferente la estructura o lógica de la tabla,
+explíquela.
